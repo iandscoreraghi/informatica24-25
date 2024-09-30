@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main ()//inizio
+{
+float A=0;
+float B=0;
+float Quadrato=0;
+
+printf("inserisci un valore di A");
+scanf("%f", &A);
+printf("inserisci un valore di B");
+scanf("%f", &B);
+
+quadrato=B*B;
+printf("il quadrato è: %F, quadrato");
+
+if(A==quadrato){
+printf("il primo valore %f corrisponde al quadrato del secondo %f",A,B);
+
+printf("il primo valore %F non corrisponde al quadrato del secondo %f", A,B);
+
+}
+
+}
