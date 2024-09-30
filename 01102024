@@ -1,1 +1,83 @@
+#include <stdio.h>
 
+int main()
+{
+    int n1=0;
+    printf("inserisci un valore random: ");
+    scanf("%d",&n1);
+    if(n1%3==0 && n1%5==0)
+        printf("il valore %d è divisibile sia per 3 che per 5", n1);
+    else
+        printf("il valore %d non è divisibile per 3 e per 5", n1);
+
+    return(0);    
+}
+
+#include <stdio.h>
+
+int main(){
+    int num1=0, num2=0, num3=0;
+    
+    printf("Inserisci il primo numero: ");
+    scanf("%d", &num1);
+    
+    printf("Inserisci il secondo numero: ");
+    scanf("%d", &num2);
+    
+    printf("Inserisci il terzo numero: ");
+    scanf("%d", &num3);
+    
+    if(num1>num2){
+        if(num1>num3){
+        printf("Num1 è quello maggiore\n");
+        }
+    }
+    else;
+    
+    if(num1<num2){
+        if(num1<num3){
+            printf("Num1 è quello minore\n");
+    }
+    else;
+        
+}
+
+// seconda parte
+    if(num2>num3){
+        if(num2>num1){
+        printf("Num2 è quello maggiore\n");
+        }
+    }
+    else;
+    
+    if(num2<num1){
+        if(num2<num3){
+            printf("Num2 è quello minore\n");
+    }
+    else;
+        
+}
+
+//terza parte
+    if(num3>num2){
+        if(num3>num1){
+        printf("Num3 è quello maggiore\n");
+        }
+    }
+    else;
+    
+    if(num3<num2){
+        if(num3<num1){
+            printf("Num3 è quello minore\n");
+    }
+    else;
+        
+}
+
+    if(num2>num1)
+        if(num2<num3){
+            printf("Num2 è il numero mediano: ");
+        }
+        
+
+}
