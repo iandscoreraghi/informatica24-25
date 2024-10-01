@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int(main)
+{
+int num1=0;
+printf("iserisci il valore di num1");
+scanf("%d", &num1);
+
+if(num1%3){
+  ("num1 è divisibile per 3")
+else ("num1 non è divisibile per 3")
+}
+if(num1%5){
+  ("num1 è divisibile per 5")}
+else ("num1 non è divisibile per 5")
+
+}
+  
+
+
