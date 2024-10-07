@@ -14,7 +14,7 @@ if(num1%3==00){
         printf("num1 è divisibile per 3 ma non per 5");
     }
         {
-            printf("num1 mnon è divisibile per 3");
+            printf("num1 non è divisibile per 3");
             return 0;
 
     }
