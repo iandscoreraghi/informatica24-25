@@ -13,7 +13,7 @@ int main(){
     perimetro=(base+altezza)*2;
     area=base*altezza;
     printf("il perimetro è di: %d\n", perimetro);
-     printf("Area è di: %d\n", area);
+    printf("Area è di: %d\n", area);
     
     if(base==altezza){
         printf("la figura è un quadrato");
@@ -21,12 +21,14 @@ int main(){
         printf("la figura è un rettangolo");
     }
 
+    return 0;
+
     }
 
 
 
 
-    #include <stdio.h>
+#include <stdio.h>
 
 int main(){
     int base;
