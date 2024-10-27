@@ -6,7 +6,7 @@ int main(){
     int centinaia;
     int decine;
     int unita;
-    int risultato=0;
+    int risultato;
     
     printf("Inserisci numero: ");
     scanf("%d", &numero);
