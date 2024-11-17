@@ -9,7 +9,7 @@ int main(){
     
 
     while( numero!=0){
-        printf("\nIl valore inseritop e: %d", numero);
+        printf("\nIl valore inserito e: %d", numero);
         printf("Inserisci un numero: ");
         scanf("%d",&numero);
         cnt++;
