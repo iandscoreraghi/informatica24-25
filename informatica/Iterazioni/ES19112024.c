@@ -11,14 +11,16 @@ int main(){
     do{
         printf("Inserisci numero:");
         scanf("%d", &numero2);
-        if(numero2%2==0 && numero2<numero && numero2!=0)
+        if(numero2%2==0 && numero2<numero && numero2!=0){
+            printf("%d numero pari inferiore al numero iniziale", numero2);
+            printf("\n");
             cnt++;
+        }
+
     }while(numero2!=0);
+
         printf("\n");
         printf("Il numero di valori inseriti minori e pari al primo numero e\' %d", cnt);
         printf("\n");
-
-        if(numero2%2==0 && numero2<numero && numero2!=0)
-        printf("%d", numero2);
 
 }
