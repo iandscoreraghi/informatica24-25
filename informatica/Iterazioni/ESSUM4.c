@@ -7,7 +7,7 @@
 int main(){
     int num;
     int somma=0;
-    conta=0;
+    int conta=0;
 
     do{
         printf("inserisci un numero: ");
@@ -15,3 +15,5 @@ int main(){
         somma=num+somma;
         conta++;
     }while(num!=0);
+
+}
