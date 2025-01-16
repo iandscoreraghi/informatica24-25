@@ -1,0 +1,95 @@
+
+<html>
+    <head>
+        <title>Nome</title>
+        <style>
+            body{
+                background-color: orange;
+            }
+            #testi-blu{
+                color: blue;
+                font-size: 18px;
+            }
+            #testi-bianchi{
+                color: white;
+                font-size: 20px;
+            }
+            #primoFont{
+                color: red;
+                font-weight: bold;
+            }
+            #secondoFont{
+                color: green;
+            }
+            #terzoFont{
+                color: green;
+                background-color: yellow;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Mettiamoci alla prova</h1>
+        <p id="testi-blu"><marquee>questo è un testo scorrevole</marquee></p>
+        <p id="testi-blu">Diamo delle righe di spazio</p>
+        <br><br><br>
+        <center><p id="testi-bianchi">Creiamo degli elenchi</p></center>
+
+        <!--LISTE-->
+        <!--ol = ordered list (123, I II III, abc)-->
+        <!--ul = unordered list (puntini, quadratini)-->
+
+
+        <!--liste ordinate-->
+    <div><ol type="a">
+            <li> questo è
+            <li> un elenco ordinato
+            <li> con type="a"
+        </ol>
+        
+        <ol type="I">
+            <li> questo è
+            <li> un elenco ordinato
+            <li> con type="I"
+        </ol>
+    </div>
+        <ul type="square">
+            <li> questo è
+            <li> un elenco ordinato
+            <li> con type="square"
+        </ul>
+            
+        <ul type="circle">
+            <li> questo è
+            <li> un elenco ordinato
+            <li> con type="circle"
+        </ul>
+        <a href="https://www.w3schools.com/">Questo link si collega al sito w3schools in una nuova scheda</a>
+        <p id="testi-blu">in questo testo alcune parti sono <font id="primoFont">evidenziate in rosso grassetto</font></p>
+        <p id="testi-blu">mentre altre parti sono <font id="secondoFont"><i>evidenziate in verde corsivo</i></font></p>
+        <p id="testi-blu">e altre parti sono <font id="terzoFont">VERDI SU SFONDO GIALLO</font></p>
+
+        <!--TABELLA-->
+        <table border= "1" style="height: 400px; width:50%; border: 1px solid red">
+            <tr>
+                <td style="background-color: yellow;" colspan="3"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2"></td>
+                <td colspan="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td rowspan="2"></td>
+                <td rowspan="2"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        
+    </body>
+</html>

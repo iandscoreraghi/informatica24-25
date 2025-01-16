@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Form</title>
+        <style></style>
+    </head>
+    <body>
+        <!--Tag che funziona come contenitore proprio come fa il div solo che è specifico a
+            indicare che sarà un contenitore per un form-->
+        <form>
+            <!--prima parte del form-->
+            <div style="background-color: blue; width: 25%; font-family: verdana;"> <!--div per creare un contenitore per il nome, cognome e i due bottoni (submit, invia/reset)-->
+                <label for="input1">nome</label>
+                <input type="text" name="name" id="input1" placeholder="inserisci il nome"><br>
+                <label for="input2">cognome</label>
+                <input type="text" name="surname" id="input2"><br>
+                <input type="submit" value="submit">
+                <input type="reset" value="via">
+            </div>
+            <br><br><br><br>
+
+            <!--I generi(genders) hanno tutti lo stesso name per poterne selezionare solo uno e non due o più-->
+            <!--anche qui posso creare un div per segregare i generi e dargli un contenitore apposito-->
+            <input type="radio" name="gender" value="male">
+            male<br>
+            <input type="radio" name="gender" value="female">
+            female<br>
+            <input type="radio" name="gender" value="other">
+            other<br>
+
+            <!--selezione per la data. Impongo un minimo ed un massimo-->
+            <label for="prenota">prenota visita</label>
+            <input type="date" id="prenota" name="giorno" value="2029-10-23"
+            max="2029-10-23" min="2029-10-20">
+            <br><br><br><br>
+            <label for="psw">password</label>
+            <input type="password" id="psw" name="password">
+
+
+            <label for="cars">select a car</label>
+            <select name="cars" id="cars">      <!--le opzioni stanno tutte dentro il select-->
+                <option value="volvo">Volvo</option>
+                <option value="audi">Audi</option>
+                <option value="mercedes">mercedes</option>
+            </select>
+        </form>
+        <img src="https://www.laleggepertutti.it/cl_resize/wIR5vslCLAY_Jd5bxJ15RJzBwtN5gxKGrcOD0g9Jlxs/rs:fill:500:0/g:ce/q:70/aHR0cHM6Ly93d3cubGFsZWdnZXBlcnR1dHRpLml0L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzEwL2ltbWFnaW5pLW1hZ2xpZXR0ZS1kaXJpdHRvLWF1dG9yZS1lMTYwMjY2ODU5MjIxMy5qcGc">
+    </body>
+    
+    </html>
