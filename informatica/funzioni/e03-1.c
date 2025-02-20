@@ -13,7 +13,7 @@ int main(){
 
 }
 void sequenzaCollatz(int*_n){
-    int cntn=1;
+    int cntn=0;
     while(*_n!=1){
         if(*_n%2==0){
             *_n=*_n/2;
@@ -24,5 +24,6 @@ void sequenzaCollatz(int*_n){
             cntn+=1;
             printf("%d\t", *_n);
         }
+        
     }printf("\nla lunghezza della sequenza è di %d", cntn);
 }
