@@ -16,6 +16,7 @@ int main(){
                 continue;
             }
         else
+            cnt++;
             printf("Hai inserito un numero pari!\n");
             printf("\n");
             break; 
