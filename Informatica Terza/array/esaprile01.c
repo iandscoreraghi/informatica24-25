@@ -10,10 +10,10 @@ void caricaVett1(int vett1[17], int mat[17][10], int vett[10]);
 void stampaVett1(int vett1[17]);
 
 int main() {
-    srand(time(NULL)); // Inizializza il generatore di numeri casuali qui
+    srand(time(NULL)); 
     int mat[17][10];
-    int vett[10];
-    int vett1[17];
+    int vett[10];/*vettore correttore*/
+    int vett1[17];/*vettore risultato*/
     int max = 4;
     int min = 1;
 
