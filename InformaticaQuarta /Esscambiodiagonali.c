@@ -19,14 +19,15 @@ int main(){
     return 0;
 }
 
-    riempiMatrice(int mat[RIGHE][COLONNE]){
+    void riempiMatrice(int mat[RIGHE][COLONNE]){
         for (int i=0; i<RIGHE; i++) {
             for (int j=0; j<COLONNE; j++) {
                 mat[i][j] = rand() % 10;
             }
         }
     }   
-    stampaMatrice(int mat[RIGHE][COLONNE]){
+    
+    void stampaMatrice(int mat[RIGHE][COLONNE]){
         for (int i=0; i<RIGHE; i++) {
             for (int j=0; j<COLONNE; j++) {
                 printf("%d ", mat [i][j]);
@@ -36,7 +37,7 @@ int main(){
         printf("\n\n");
     }
 
-    scambiaDiagonali(int mat[RIGHE][COLONNE]){
+    void scambiaDiagonali(int mat[RIGHE][COLONNE]){
         int temp=0;
         for (int i=0; i<RIGHE; i++){
             temp= mat[i][i];
