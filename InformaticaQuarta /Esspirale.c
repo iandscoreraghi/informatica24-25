@@ -15,16 +15,16 @@ int main(){
 
         while(num<=N*N){
             for(i=left; i<=right; i++)
-                mat[top][i]= num+1;
+                mat[top][i]= num++;
             top++;
             for(i=top; i<=bottom; i++)
-                mat[i][right]= num+1;
+                mat[i][right]= num++;
             right--;
             for(i=right; i>=left; i--)
-                mat[bottom][i]=num+1,
+                mat[bottom][i]=num++,
             bottom--;
             for(i=bottom; i>=top; i--)
-                mat[i][left]=num+1;
+                mat[i][left]=num++;
             left++;
 
         }
