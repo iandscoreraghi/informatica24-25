@@ -38,4 +38,6 @@ int main(){
     }
     printf("la somma dei %d numeri dispari è %d", nd,sumd);
 
+    
+    
 }
