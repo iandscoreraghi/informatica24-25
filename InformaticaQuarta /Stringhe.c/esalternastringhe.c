@@ -13,7 +13,9 @@ void alternaStringhe(char *s1, char *s2, char*s3) {
             i++;
         }
         if (j < lunghezza2) {
-            s3[k++] = s2[j++];
+            s3[k] = s2[j];
+            k++;
+            j++;
         }
     }
     s3[k]='\0';
