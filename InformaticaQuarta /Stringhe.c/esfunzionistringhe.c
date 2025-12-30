@@ -9,7 +9,7 @@ int main() {
     int frequenza = 0;
 
     printf("Inserisci la prima stringa: ");
-    fgets(stringa1, sizeof(stringa1), stdin);
+    fgets(stringa1, sizeof(stringa1), ostdin);
     
     stringa1[strcspn(stringa1, "\n")] = '\0';
 
